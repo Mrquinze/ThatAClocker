@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Needed only for the optional "upcoming events" row on the widget -->
+    <key>NSCalendarsFullAccessUsageDescription</key>
+    <string>That a Clocker reads your next few events so it can show them on the desktop widget.</string>
+</dict>
+</plist>
