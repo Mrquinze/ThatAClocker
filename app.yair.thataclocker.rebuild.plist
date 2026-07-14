@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>app.yair.thataclocker.rebuild</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/zsh</string>
+        <string>-lc</string>
+        <string>$HOME/Documents/ThatAClocker/scripts/rebuild.sh</string>
+    </array>
+    <!-- Every 6 days (in seconds), so it always renews before the 7-day expiry -->
+    <key>StartInterval</key>
+    <integer>518400</integer>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/tmp/thataclocker-rebuild.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/thataclocker-rebuild.log</string>
+</dict>
+</plist>
